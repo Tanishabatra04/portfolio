@@ -1,0 +1,224 @@
+/* styles.css */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.image-container {
+    max-width: 100%;
+    margin: 0 auto;
+}
+.Home{
+    opacity: 0;
+}
+.resume
+{
+    margin-top: 40%;
+    text-align: center;
+    /* color: white; */
+    opacity: 0;
+}
+.project{
+    margin-top: 40%;
+    text-align: center;
+    opacity: 0;
+}
+.Ex{
+    margin-top: 60%;
+    text-align: center;
+    opacity: 0;
+}
+.responsive-image {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.Contactme{
+    margin-top: -212%;
+    margin-left: 0%;
+}
+
+
+
+.navbar {
+    position: sticky;
+    /* top: 0; */
+    /* width: 200%; */
+    /* background-color: #333; */
+    z-index: 1000;
+    margin-top: -213.5%;
+    margin-left: -6vw;
+}
+.navbar.active {
+    background-color: #444; /* Change to the color you want */
+    position: sticky;
+
+    opacity: 1;
+}
+
+.nav-items {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-items li {
+    margin: 0 15px;
+}
+
+.nav-items a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 15px 20px;
+    opacity: 0;
+}
+
+.nav-items a:hover {
+    background-color: #575757;
+    border-radius: 4px;
+}
+
+.content {
+    padding: 20px;
+    
+}
+
+section {
+
+    margin-top: -300vh;
+    /* margin-bottom: 50px; */
+    opacity: 0;
+     
+}
+#resume{
+    margin-top: 80vh;
+}
+#Projects{
+    margin-top: 80vh;
+}
+#Experience{
+    margin-top: 100vh;
+}
+.navbar.active .nav-items a {
+    opacity: 1; /* Adjust to the desired opacity */
+    /*  */
+}
+
+.dropdown {
+    /* position: absolute; */
+    /* display: inline-block; */
+    /* margin-top: 280%; */
+    margin-left: 12%;
+    /* opacity: 0; */
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    /* opacity: 0; */
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
+.dropbtn{
+    /* position: absolute; */
+    opacity: 0;
+    margin-top:  65vh;
+}
+#downloadBtn{
+    /* margin-top: 68%; */
+    margin-top: 85vh;
+    margin-left: 15vw;
+    opacity: 0;
+}
+ .link-container {
+    display: flex;
+    /* justify-content: space-around; */
+}
+.link-container a {
+    text-decoration: none;
+    color: blue;
+    /* padding: 10px; */
+    padding-left: 5vw;
+    margin-left: 13vw;
+    margin-top: 135vh;
+    opacity: 0;
+}
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+  }
+
+/* Responsive Styles */
+
+/* Large devices (desktops, 992px and up) */
+/* @media (min-width: 992px) {
+    nav ul {
+        justify-content: flex-end;
+         margin-left: 20%; 
+    }
+
+    nav ul li {
+        display: inline-block;
+    }
+} */
+
+/* Medium devices (tablets, 768px and up) */
+/* @media (min-width: 768px) and (max-width: 991px) {
+    nav ul {
+        justify-content: center;
+    }
+
+    nav ul li {
+        display: inline-block;
+    }
+} */
+
+/* Small devices (landscape phones, 576px and up) */
+/* @media (min-width: 576px) and (max-width: 767px) {
+    nav ul {
+        flex-direction: row;
+    }
+
+    nav ul li {
+        display: inline-block;
+    }
+} */
+
+/* Extra small devices (portrait phones, less than 576px) */
+/* @media (max-width: 575px) {
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul li {
+        width: 100%;
+        text-align: center;
+    }
+} */
